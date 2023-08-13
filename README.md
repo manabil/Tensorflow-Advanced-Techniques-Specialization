@@ -6,16 +6,24 @@ This is my assignment in that specialization. This repo only includes lab files,
 ## Table of Content
 
 ```bash
-Tensorflow: Advanced Techniques Specialization
-├── Custom Models, Layers, and Loss Functions with TensorFlow
-│   ├── Week 1
-│   ├── Week 2
-│   ├── Week 3
-│   └── Week 4
-├── Custom and Distributed Training with TensorFlow
+Tensorflow: Advanced Techniques Specialization/
+├── Custom Models, Layers, and Loss Functions with TensorFlow/
+│   ├── Week 1/
+│   │   ├── C1_W1_Lab_1_functional-practice.ipynb
+│   │   ├── C1_W1_Lab_2_multi-output.ipynb
+│   │   ├── data/
+│   │   │   └── ENB2012_data.xlsx
+│   │   ├── C1_W1_Lab_3_siamese-network.ipynb
+│   │   └── C1_W1_Assigment.ipynb
+│   ├── Week 2/
+│   │   └── C1_W2_Assigment.ipynb
+│   ├── Week 3/
+│   │   └── C1_W3_Assigment.ipynb
+│   └── Week 4/
+│       └── C1_W4_Assigment.ipynb
+├── Custom and Distributed Training with TensorFlow/
 │   └── On progress
-├── Advanced Computer Vision with TensorFlow
+├── Advanced Computer Vision with TensorFlow/
 │   └── On progress
-└── Generative Deep Learning with TensorFlow
-    └── On progress
-```
+└── Generative Deep Learning with TensorFlow/
+    └── On progress```
