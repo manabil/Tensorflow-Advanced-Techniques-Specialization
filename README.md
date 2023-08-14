@@ -19,7 +19,10 @@ Tensorflow: Advanced Techniques Specialization/
 │   │   ├── winequality-red.csv
 │   │   └── winequality-white.csv
 │   ├── Week 2/
-│   │   └── C1_W2_Assigment.ipynb
+│   │   ├── C1W2_Assigment.ipynb
+│   │   ├── C1_W2_Lab_1_huber_loss.ipynb
+│   │   ├── C1_W2_Lab_2_huber_object.ipynb
+│   │   └── utils.py
 │   ├── Week 3/
 │   │   └── C1_W3_Assigment.ipynb
 │   └── Week 4/
