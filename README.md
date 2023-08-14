@@ -9,12 +9,13 @@ This is my assignment in that specialization. This repo only includes lab files,
 Tensorflow: Advanced Techniques Specialization/
 ├── Custom Models, Layers, and Loss Functions with TensorFlow/
 │   ├── Week 1/
-│   │   ├── C1_W1_Lab_1_functional-practice.ipynb
-│   │   ├── C1_W1_Lab_2_multi-output.ipynb
 │   │   ├── data/
 │   │   │   └── ENB2012_data.xlsx
+│   │   ├── C1_W1_Lab_1_functional-practice.ipynb
+│   │   ├── C1_W1_Lab_2_multi-output.ipynb
 │   │   ├── C1_W1_Lab_3_siamese-network.ipynb
-│   │   └── C1_W1_Assigment.ipynb
+│   │   ├── C1_W1_Assigment.ipynb
+│   │   └── utils.py
 │   ├── Week 2/
 │   │   └── C1_W2_Assigment.ipynb
 │   ├── Week 3/
@@ -26,4 +27,5 @@ Tensorflow: Advanced Techniques Specialization/
 ├── Advanced Computer Vision with TensorFlow/
 │   └── On progress
 └── Generative Deep Learning with TensorFlow/
-    └── On progress```
+    └── On progress
+```
