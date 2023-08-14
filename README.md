@@ -11,10 +11,10 @@ Tensorflow: Advanced Techniques Specialization/
 │   ├── Week 1/
 │   │   ├── data/
 │   │   │   └── ENB2012_data.xlsx
+│   │   ├── C1W1_Assigment.ipynb
 │   │   ├── C1_W1_Lab_1_functional-practice.ipynb
 │   │   ├── C1_W1_Lab_2_multi-output.ipynb
 │   │   ├── C1_W1_Lab_3_siamese-network.ipynb
-│   │   ├── C1_W1_Assigment.ipynb
 │   │   ├── utils.py
 │   │   ├── winequality-red.csv
 │   │   └── winequality-white.csv
