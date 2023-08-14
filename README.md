@@ -15,7 +15,9 @@ Tensorflow: Advanced Techniques Specialization/
 │   │   ├── C1_W1_Lab_2_multi-output.ipynb
 │   │   ├── C1_W1_Lab_3_siamese-network.ipynb
 │   │   ├── C1_W1_Assigment.ipynb
-│   │   └── utils.py
+│   │   ├── utils.py
+│   │   ├── winequality-red.csv
+│   │   └── winequality-white.csv
 │   ├── Week 2/
 │   │   └── C1_W2_Assigment.ipynb
 │   ├── Week 3/
