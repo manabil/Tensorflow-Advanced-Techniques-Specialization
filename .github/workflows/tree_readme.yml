@@ -23,7 +23,8 @@ jobs:
       run: |
         git config --local user.email "mammarnabil@students.unnes.ac.id"
         git config --local user.name "manabil"
-        git commit -am "Update tree"
+        git add -A
+        git diff-index --quiet HEAD || (git commit -am "Update tree" --allow-empty)
         
     - name: Push changes
       uses: ad-m/github-push-action@master
