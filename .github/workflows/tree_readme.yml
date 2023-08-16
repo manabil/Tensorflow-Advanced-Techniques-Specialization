@@ -16,7 +16,7 @@ jobs:
       
     - name: Running Script
       run: |
-        apt-get install tree
+        sudo apt-get install -y tree
         tree --noreport -I 'README.md|LICENSE|tree.txt' > tree.txt
         sed -i "9,100d" README.md
         echo '```' >> tree.txt 
