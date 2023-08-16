@@ -10,10 +10,7 @@ jobs:
     steps:
     - name: 'Checkout Repository'
       uses: actions/checkout@v3
-      with:
-        persist-credentials: false
-        fetch-depth: 0
-      
+            
     - name: Running Script
       run: |
         sudo apt-get install -y tree
