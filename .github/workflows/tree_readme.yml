@@ -1,0 +1,35 @@
+name: Generate README
+
+on: workflow_dispatch
+
+jobs:
+  
+  generate-tree:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 'Checkout Repository'
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: false
+        fetch-depth: 0
+      
+    - name: Running Script
+      run: |
+        apt-get install tree
+        tree --noreport -I 'README.md|LICENSE' > tree.txt
+        sed -i "9,100d" README.md
+        echo '```' >> tree.txt 
+        cat tree.txt >> README.md
+    
+    - name: Commit files
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git commit -a -m "Update tree"
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
