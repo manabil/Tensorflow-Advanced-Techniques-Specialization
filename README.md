@@ -24,9 +24,13 @@ Tensorflow: Advanced Techniques Specialization/
 │   │   ├── C1_W2_Lab_2_huber_object.ipynb
 │   │   └── utils.py
 │   ├── Week 3/
-│   │   └── C1_W3_Assigment.ipynb
+│   │   ├── C1W3_Assignment.ipynb
+│   │   ├── C1_W3_Lab_1_lambda_layer.ipynb
+│   │   ├── C1_W3_Lab_2_custom-dense-layer.ipynb
+│   │   ├── C1_W3_Lab_3_custom_layer_activation.ipynb
+│   │   └── utils.py
 │   └── Week 4/
-│       └── C1_W4_Assigment.ipynb
+│       └── C1W4_Assigment.ipynb
 ├── Custom and Distributed Training with TensorFlow/
 │   └── On progress
 ├── Advanced Computer Vision with TensorFlow/
