@@ -23,4 +23,4 @@ jobs:
         
     - name: Formatting the code with Black
       run: |
-        black --ipynb --check -l 79 .
+        black --ipynb --check --line-length 79 *.ipynb
