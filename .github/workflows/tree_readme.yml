@@ -1,6 +1,8 @@
 name: Generate README
 
-on: workflow_dispatch
+on: 
+  push: 
+    branches: main
 
 jobs:
   
@@ -20,16 +22,17 @@ jobs:
         sed -i "9,100d" README.md
         echo '```' >> tree.txt 
         cat tree.txt >> README.md
+        echo '=========== README.md ==========='
         cat README.md
             
     - name: Commit files
       run: |
         git config --local user.email "mammarnabil@students.unnes.ac.id"
         git config --local user.name "manabil"        
-        git commit -a -m "Update tree"
+        git commit -am "Update tree"
         
     - name: Push changes
-      uses: ad-m/github-push-action@v0.6.0
+      uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
+        branch: ${{ github.ref }}
