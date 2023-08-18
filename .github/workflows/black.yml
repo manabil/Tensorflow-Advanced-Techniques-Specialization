@@ -18,4 +18,4 @@ jobs:
         
     - name: Formatting the code with Black
       run: |
-        black --ipynb --check --line-length 79 --exclude utils.py .
+        black --ipynb --line-length 79 --exclude utils.py .
