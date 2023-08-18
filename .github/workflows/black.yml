@@ -3,10 +3,13 @@ name: Black
 on: [push]
 
 jobs:
-  formatting-with-python:
+  format-code:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+      with:
+          persist-credentials: false
+          fetch-depth: 0
     
     - name: Set up Python
       uses: actions/setup-python@v3
@@ -16,6 +19,17 @@ jobs:
         python -m pip install --upgrade pip
         pip install -q black "black[jupyter]"
         
-    - name: Formatting the code with Black
+    - name: Formatting the code
+      run: black --ipynb --line-length 79 --exclude utils.py .
+
+    - name: Commit files
       run: |
-        black --ipynb --line-length 79 --exclude utils.py .
+        git config --local user.email "mammarnabil@students.unees.ac.id"
+        git config --local user.name "manabil"
+        git commit -a -m "Formatting notebook"
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
