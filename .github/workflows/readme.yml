@@ -1,6 +1,6 @@
-name: Generate README
+name: Readme
 
-on: push
+on: workflow_dispatch
 
 jobs:
   generate-tree:
@@ -15,14 +15,15 @@ jobs:
         persist-credentials: false
         fetch-depth: 0
             
-    - name: Running Script
+    - name: Running script
       run: |
         tree --noreport -I 'README.md|LICENSE|tree.txt' > tree.txt
         sed -i "9,100d" README.md
         echo '```' >> tree.txt 
         cat tree.txt >> README.md
-        echo '=========== README.md ==========='
-        cat README.md
+
+    - name: Showing result
+    - run: cat README.md
             
     - name: Commit files
       run: |
