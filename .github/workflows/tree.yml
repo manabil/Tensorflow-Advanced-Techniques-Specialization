@@ -1,5 +1,4 @@
 name: Tree
-run-name: Generate tree
 
 on: workflow_dispatch
 
@@ -24,7 +23,7 @@ jobs:
         cat tree.txt >> README.md
 
     - name: Showing result
-    - run: cat README.md
+      run: cat README.md
             
     - name: Commit files
       run: |
