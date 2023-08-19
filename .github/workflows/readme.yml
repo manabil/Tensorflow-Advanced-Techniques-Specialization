@@ -18,7 +18,7 @@ jobs:
     - name: Running script
       run: |
         tree --noreport -I 'README.md|LICENSE|tree.txt' > tree.txt
-        sed -i "9,100d" README.md
+        sed -i "15,100d" README.md
         echo '```' >> tree.txt 
         cat tree.txt >> README.md
 
