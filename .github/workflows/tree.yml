@@ -1,4 +1,5 @@
-name: Readme
+name: Tree
+run-name: Generate tree
 
 on: workflow_dispatch
 
