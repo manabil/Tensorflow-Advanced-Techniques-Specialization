@@ -1,37 +1,37 @@
-name: Fix
+name: !!str Fix
 
-on: workflow_dispatch
+on: !!str workflow_dispatch
 
-jobs:
-  lint:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-    - uses: actions/checkout@v3
-      with: 
-        persist-credentials: false
-        fetch-depth: 0
+jobs: !!map
+  format: !!map
+    runs-on: !!str ubuntu-latest
+    permissions: !!map
+      contents: !!str write
+    steps: !!seq
+    - uses: !!str actions/checkout@v3
+      with: !!map
+        persist-credentials: !!bool false
+        fetch-depth: !!int 0
     
-    - name: Set up Python
-      uses: actions/setup-python@v3
+    - name: !!str Set up Python
+      uses: !!str actions/setup-python@v3
           
-    - name: Install dependencies
-      run: |
+    - name: !!str Install dependencies
+      run: !!str |
         python -m pip install --upgrade pip
         pip install ruff nbqa
                 
-    - name: Fixing the code
-      run: nbqa ruff . --fix
+    - name: !!str Fixing the code
+      run: !!str nbqa ruff . --fix
     
-    - name: Commit files
-      run: |
+    - name: !!str Commit files
+      run: !!str |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git commit -a -m "Formatting notebook"
         
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+    - name: !!str Push changes
+      uses: !!str ad-m/github-push-action@master
+      with: !!map
+        github_token: !!str ${{ secrets.GITHUB_TOKEN }}
+        branch: !!str ${{ github.ref }}
