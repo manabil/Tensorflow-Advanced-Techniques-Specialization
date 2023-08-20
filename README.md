@@ -37,5 +37,7 @@ This is my assignment in that specialization. This repo only includes lab files,
     │   └── utils.py
     └── Week 4
         ├── C1_W4_Lab_1_basic_model.ipynb
-        └── C1_W4_Lab_2_resnet_example.ipynb
+        ├── C1_W4_Lab_2_resnet_example.ipynb
+        ├── VGG.png
+        └── utils.py
 ```
