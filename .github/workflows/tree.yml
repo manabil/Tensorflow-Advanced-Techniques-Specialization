@@ -3,7 +3,7 @@ name: !!str Tree
 on: !!str workflow_dispatch
 
 jobs: !!map
-  generate-tree: !!map
+  generate: !!map
     runs-on: !!str ubuntu-latest
     permissions: !!map
       contents: !!str write
