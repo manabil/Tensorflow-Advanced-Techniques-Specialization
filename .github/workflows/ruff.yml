@@ -1,6 +1,11 @@
 name: Ruff
 
-on: push
+on: 
+  push: 
+    branches: main
+  workflow_run:
+    workflows: ["Black", "Fix"]
+    types: completed
 
 jobs:
   lint:
