@@ -1,25 +1,25 @@
-name: Ruff
+name: !!str Ruff
 
-on: 
-  push: 
-    branches: main
-  workflow_run:
-    workflows: ["Black", "Fix"]
-    types: completed
+on: !!map
+  push : !!map
+    branches: !!str main
+  workflow_run: !!map
+    workflows: !!seq ["Black", "Fix"]
+    types: !!str completed
 
-jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
+jobs: !!map
+  lint: !!map
+    runs-on: !!str ubuntu-latest
+    steps: !!seq
+    - uses: !!str actions/checkout@v3
     
-    - name: Set up Python
-      uses: actions/setup-python@v3
+    - name: !!str Set up Python
+      uses: !!str actions/setup-python@v3
           
-    - name: Install dependencies
-      run: |
+    - name: !!str Install dependencies
+      run: !!str |
         python -m pip install --upgrade pip
         pip install ruff nbqa
                 
-    - name: Analysing the code
-      run: nbqa ruff .
+    - name: !!str Analysing the code
+      run: !!str nbqa ruff .
