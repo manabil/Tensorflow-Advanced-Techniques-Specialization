@@ -36,6 +36,7 @@ This is my assignment in that specialization. This repo only includes lab files,
     │   ├── C1_W3_Lab_3_custom_layer_activation.ipynb
     │   └── utils.py
     └── Week 4
+        ├── C1W4_Assignment.ipynb
         ├── C1_W4_Lab_1_basic_model.ipynb
         ├── C1_W4_Lab_2_resnet_example.ipynb
         ├── VGG.png
