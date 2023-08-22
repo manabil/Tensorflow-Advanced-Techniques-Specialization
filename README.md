@@ -42,5 +42,7 @@ This is my assignment in that specialization. This repo only includes lab files,
     │   ├── VGG.png
     │   └── utils.py
     └── Week 5
-        └── C1_W5_Lab_1_exploring_callbacks.ipynb
+        ├── C1_W5_Lab_1_exploring_callbacks.ipynb
+        ├── C1_W5_Lab_2_custom_callbacks.ipynb
+        └── animation.gif
 ```
