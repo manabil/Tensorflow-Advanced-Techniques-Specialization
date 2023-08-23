@@ -1,34 +1,37 @@
 .
-└── Custom Models, Layers, Loss Functions with Tensorflow
-    ├── Week 1
-    │   ├── C1W1_Assignment.ipynb
-    │   ├── C1_W1_Lab_1_functional-practice.ipynb
-    │   ├── C1_W1_Lab_2_multi-output.ipynb
-    │   ├── C1_W1_Lab_3_siamese-network.ipynb
-    │   ├── data
-    │   │   └── ENB2012_data.xlsx
-    │   ├── utils.py
-    │   ├── winequality-red.csv
-    │   └── winequality-white.csv
-    ├── Week 2
-    │   ├── C1W2_Assignment.ipynb
-    │   ├── C1_W2_Lab_1_huber_loss.ipynb
-    │   ├── C1_W2_Lab_2_huber_object_loss.ipynb
-    │   └── utils.py
-    ├── Week 3
-    │   ├── C1W3_Assignment.ipynb
-    │   ├── C1_W3_Lab_1_lambda_layer.ipynb
-    │   ├── C1_W3_Lab_2_custom-dense-layer.ipynb
-    │   ├── C1_W3_Lab_3_custom_layer_activation.ipynb
-    │   └── utils.py
-    ├── Week 4
-    │   ├── C1W4_Assignment.ipynb
-    │   ├── C1_W4_Lab_1_basic_model.ipynb
-    │   ├── C1_W4_Lab_2_resnet_example.ipynb
-    │   ├── VGG.png
-    │   └── utils.py
-    └── Week 5
-        ├── C1_W5_Lab_1_exploring_callbacks.ipynb
-        ├── C1_W5_Lab_2_custom_callbacks.ipynb
-        └── animation.gif
+├── Custom Models, Layers, Loss Functions with Tensorflow
+│   ├── Week 1
+│   │   ├── C1W1_Assignment.ipynb
+│   │   ├── C1_W1_Lab_1_functional-practice.ipynb
+│   │   ├── C1_W1_Lab_2_multi-output.ipynb
+│   │   ├── C1_W1_Lab_3_siamese-network.ipynb
+│   │   ├── data
+│   │   │   └── ENB2012_data.xlsx
+│   │   ├── utils.py
+│   │   ├── winequality-red.csv
+│   │   └── winequality-white.csv
+│   ├── Week 2
+│   │   ├── C1W2_Assignment.ipynb
+│   │   ├── C1_W2_Lab_1_huber_loss.ipynb
+│   │   ├── C1_W2_Lab_2_huber_object_loss.ipynb
+│   │   └── utils.py
+│   ├── Week 3
+│   │   ├── C1W3_Assignment.ipynb
+│   │   ├── C1_W3_Lab_1_lambda_layer.ipynb
+│   │   ├── C1_W3_Lab_2_custom-dense-layer.ipynb
+│   │   ├── C1_W3_Lab_3_custom_layer_activation.ipynb
+│   │   └── utils.py
+│   ├── Week 4
+│   │   ├── C1W4_Assignment.ipynb
+│   │   ├── C1_W4_Lab_1_basic_model.ipynb
+│   │   ├── C1_W4_Lab_2_resnet_example.ipynb
+│   │   ├── VGG.png
+│   │   └── utils.py
+│   └── Week 5
+│       ├── C1_W5_Lab_1_exploring_callbacks.ipynb
+│       ├── C1_W5_Lab_2_custom_callbacks.ipynb
+│       └── animation.gif
+└── Custom and Distributed Training with Tensorflow
+    └── Week 1
+        └── C2_W1_Lab_1_basic_tensors.ipynb
 ```
