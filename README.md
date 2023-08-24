@@ -49,5 +49,6 @@ This is my assignment in that specialization. This repo only includes lab files,
     └── Week 1
         ├── C2W1_Assignment.ipynb
         ├── C2_W1_Lab_1_basic_tensors.ipynb
-        └── C2_W1_Lab_2_gradient_tape_basics.ipynb
+        ├── C2_W1_Lab_2_gradient_tape_basics.ipynb
+        └── C2_W2_Lab_1_training_basics.ipynb
 ```
