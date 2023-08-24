@@ -1,6 +1,9 @@
 name: !!str Tree
 
-on: !!str workflow_dispatch
+on: !!map
+  workflow_run: !!map
+    workflows: !!seq ["Ruff"]
+    types: !!str completed
 
 jobs: !!map
   generate: !!map
