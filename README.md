@@ -48,6 +48,7 @@ This is my assignment in that specialization. This repo only includes lab files,
 └── Custom and Distributed Training with Tensorflow
     ├── Week 1
     │   ├── C2W1_Assignment.ipynb
+    │   ├── C2_W1.pdf
     │   ├── C2_W1_Lab_1_basic_tensors.ipynb
     │   └── C2_W1_Lab_2_gradient_tape_basics.ipynb
     └── Week 2
