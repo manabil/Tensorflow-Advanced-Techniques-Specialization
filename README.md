@@ -54,5 +54,7 @@ This is my assignment in that specialization. This repo only includes lab files,
     └── Week 2
         ├── C2_W2.pdf
         ├── C2_W2_Lab_1_training_basics.ipynb
-        └── C2_W2_Lab_2_training_categorical.ipynb
+        ├── C2_W2_Lab_2_training_categorical.ipynb
+        └── data
+            └── data.csv
 ```
