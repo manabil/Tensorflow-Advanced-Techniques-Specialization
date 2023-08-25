@@ -55,6 +55,11 @@ This is my assignment in that specialization. This repo only includes lab files,
         ├── C2_W2.pdf
         ├── C2_W2_Lab_1_training_basics.ipynb
         ├── C2_W2_Lab_2_training_categorical.ipynb
-        └── data
-            └── data.csv
+        ├── data
+        │   └── data.csv
+        └── test_model
+            ├── saved_model.pb
+            └── variables
+                ├── variables.data-00000-of-00001
+                └── variables.index
 ```
