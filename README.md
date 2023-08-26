@@ -65,5 +65,6 @@ This is my assignment in that specialization. This repo only includes lab files,
     │           └── variables.index
     └── Week 3
         ├── C2_W3.pdf
-        └── C2_W3_Lab_1_autograph_basics.ipynb
+        ├── C2_W3_Lab_1_autograph_basics.ipynb
+        └── C2_W3_Lab_2_graphs_for_complex_code.ipynb
 ```
