@@ -72,6 +72,7 @@ This is my assignment in that specialization. This repo only includes lab files,
     │       └── resnet_50_feature_vector
     │           ├── saved_model.pb
     │           └── variables
+    │               ├── variables.data-00000-of-00001
     │               └── variables.index
     └── Week 4
         ├── C2_W4.pdf
