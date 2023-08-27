@@ -5,6 +5,7 @@
 	<a href="https://github.com/manabil/Tensorflow-Advanced-Techniques-Specialization/actions?workflow=ruff"><img
 		alt="tox"
 		src="https://github.com/manabil/Tensorflow-Advanced-Techniques-Specialization/workflows/Ruff/badge.svg"></a>
+	<img src="https://img.shields.io/github/repo-size/manabil/Tensorflow-Advanced-Techniques-Specialization" alt="repo_size">
 </p>
 
 This is my assignment in that specialization. This repo only includes lab files, and assignment files in all classes (and all weeks). If you want to ask about this repo, feel free to contact me
