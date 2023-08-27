@@ -69,5 +69,6 @@ This is my assignment in that specialization. This repo only includes lab files,
     │   ├── C2_W3_Lab_1_autograph_basics.ipynb
     │   └── C2_W3_Lab_2_graphs_for_complex_code.ipynb
     └── Week 4
+        ├── C2_W4.pdf
         └── C2_W4_Lab_1_basic_mirrored_strategy.ipynb
 ```
