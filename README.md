@@ -76,6 +76,7 @@ This is my assignment in that specialization. This repo only includes lab files,
     │               ├── variables.data-00000-of-00001
     │               └── variables.index
     └── Week 4
+        ├── C2W4_Assignment.ipynb
         ├── C2_W4.pdf
         ├── C2_W4_Lab_1_basic_mirrored_strategy.ipynb
         ├── C2_W4_Lab_2_multi_GPU_mirrored_strategy.ipynb
