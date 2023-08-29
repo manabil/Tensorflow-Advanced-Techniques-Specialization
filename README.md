@@ -16,7 +16,8 @@ This is my assignment in that specialization. This repo only includes lab files,
 .
 ├── Advanced Computer Vision with Tensorflow
 │   └── Week 1
-│       └── C3_W1_Lab_1_transfer_learning_cats_dogs.ipynb
+│       ├── C3_W1_Lab_1_transfer_learning_cats_dogs.ipynb
+│       └── C3_W1_Lab_2_Transfer_Learning_CIFAR_10.ipynb
 ├── Custom Models, Layers, Loss Functions with Tensorflow
 │   ├── Week 1
 │   │   ├── C1W1_Assignment.ipynb
