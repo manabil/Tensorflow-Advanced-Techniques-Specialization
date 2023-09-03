@@ -10,6 +10,8 @@
 
 This is my assignment in that specialization. This repo only includes lab files, and assignment files in all classes (and all weeks). If you want to ask about this repo, feel free to contact me
 
+You can also get all the raw files in [here](https://github.com/https-deeplearning-ai/tensorflow-3-public)
+
 ## Table of Content
 
 ```bash
