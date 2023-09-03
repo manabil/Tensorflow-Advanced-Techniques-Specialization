@@ -1,6 +1,7 @@
 .
 ├── Advanced Computer Vision with Tensorflow
 │   └── Week 1
+│       ├── C3W1_Assignment.ipynb
 │       ├── C3_W1_Lab_1_transfer_learning_cats_dogs.ipynb
 │       ├── C3_W1_Lab_2_Transfer_Learning_CIFAR_10.ipynb
 │       └── C3_W1_Lab_3_Object_Localization.ipynb
