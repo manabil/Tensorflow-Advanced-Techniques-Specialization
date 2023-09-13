@@ -23,7 +23,8 @@ You can also get all the raw files in [here](https://github.com/https-deeplearni
 │   │   ├── C3_W1_Lab_2_Transfer_Learning_CIFAR_10.ipynb
 │   │   └── C3_W1_Lab_3_Object_Localization.ipynb
 │   └── Week 2
-│       └── C3_W2_Lab_1_Simple_Object_Detection.ipynb
+│       ├── C3_W2_Lab_1_Simple_Object_Detection.ipynb
+│       └── C3_W2_Lab_2_Object_Detection.ipynb
 ├── Custom Models, Layers, Loss Functions with Tensorflow
 │   ├── Week 1
 │   │   ├── C1W1_Assignment.ipynb
